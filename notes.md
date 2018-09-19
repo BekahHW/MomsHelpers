@@ -1,0 +1,5 @@
+-Create tables for students, moms, times
+-students has_many :times
+-moms has_many :times
+-times belongs_to :moms
+-times belongs_to :students
